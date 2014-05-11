@@ -24,7 +24,7 @@ $( document ).ready(function() {
 		
 	function draw()
 	{
-		ctx.fillStyle = "rgba(0, 0, 0, 0.08)";
+		ctx.fillStyle = "rgba(0, 0, 0, 0.02)";
 		ctx.fillRect(0, 0, c.width, c.height);
 		ctx.fillStyle = "#F7931A";
 		ctx.font = fontSize + "px courier";
