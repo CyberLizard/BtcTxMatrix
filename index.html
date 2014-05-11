@@ -1,13 +1,20 @@
 <html>
 <head>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="script.js"></script>
-<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div class="header"><center><h2>Newest Bitcoin transactions</h2>
-<iframe src="http://ghbtns.com/github-btn.html?user=lhartikk&repo=arnoldc&type=fork"
-  allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20"></iframe><center></div>
+<div class="header-div">
+	<div class="title"><h2>Latest Bitcoin Transactions</h2>
+		<iframe src="http://ghbtns.com/github-btn.html?user=lhartikk&repo=BtcTxMatrix&type=fork"
+		  allowtransparency="true" frameborder="0" scrolling="0" width="62" height="20">
+		</iframe>
+	</div>
+	<div class="rate" id="btc-quote">
+	</div>
+<script type="text/javascript" src="//cdn-gh.firebase.com/btcquote/embed.js"></script>
+</div>  
 <canvas id="c"></canvas>
 </body>
 </html>
